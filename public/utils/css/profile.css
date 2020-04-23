@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+}
+#intro
+{
+	width: 100%;
+	height: 25%;
+	background:navy;
+	position: absolute;
+	color: red;
+}
+#profile_photo
+{
+	width: 15%;
+	height: 85%;
+	border-radius: 50%;
+	right: 5%;
+	border: 1px red solid;
+	position: absolute;
+}
+#profile_name,#bio
+{
+	left: 60%;
+	color: #fff;
+	position: absolute;
+	text-transform: uppercase;
+}
+#bio
+{
+	top: 25%;
+	width: 25%;
+	height: 75%;
+	text-transform: capitalize;
+}
+#friendlist,#onlineusers
+{
+	position: absolute;
+	width: 25%;
+	height: 75%;
+	top: 25%;
+	background: black;
+	color: #fff;
+	overflow: scroll;
+}
+#onlineusers
+{
+	left: 75%;
+}
+#container
+{
+	position: absolute;
+	top: 25%;
+	width: 50%;
+	height: 75%;
+	left: 25%;
+	background: navy;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup</title>
+	<link rel="stylesheet" type="text/css" href="../css/signup.css">
+</head>
+<body>
+	<!--sign form for new users -->
+	<div id="signup_form">
+		<h2>Create Account</h2><hr>
+		<form action="profile.html" method="get" id="new_user_form">
+			<input type="text" name="" id="name" placeholder="your name"/><br>
+			<input type="text" name="" id="user_id" placeholder="user id" required /><br>
+			<input type="password" name="" id="password" placeholder="password" required /><br>
+			<input type="submit" value="SIGN UP" id="signup" name="signup"/>
+		</form>
+	</div>
+	<script type="text/javascript" src='/socket.io/socket.io.js'></script>
+	<script type="text/javascript" src="../js/signup.js"></script>
+</body>
+</html>

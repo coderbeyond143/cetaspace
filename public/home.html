@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cetaspace</title>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+	<!--Login form for existing users-->
+	<div id="login_form">
+		<h2>Login</h2><hr>
+		<form action="utils/html/profile.html" method="get" id='signin_form'>
+			<input type="text" name="" id="username" placeholder="user id" required /><br>
+			<input type="password" name="" id="password" placeholder="password" required /><br>
+			<input type="submit" id="signinbtn" name="signin" value="LOG IN"/>
+		</form>
+		<!--Signup button for new users-->
+		<div id='signup_button'>
+			<form action="./utils/html/signup.html">
+				<input type="submit" value="SIGN UP" id="signupbtn"/>
+			</form>
+		</div>
+	</div>
+	<!--scripts -->
+	<script type="text/javascript" src='/socket.io/socket.io.js'></script>
+	<script type="text/javascript" src="utils/js/signin.js"></script>
+</body>
+</html>

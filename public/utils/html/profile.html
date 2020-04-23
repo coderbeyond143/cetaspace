@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile</title>
+	<link rel="stylesheet" type="text/css" href="../css/profile.css">
+</head>
+<body>
+	<!--Introduction section-->
+	<div id="intro">
+		<img src="" id="profile_photo" alt="profile_photo"/>
+		<span id="profile_name">aakash</span>
+		<span id="bio">bio.....</span>
+	</div>
+	<!--Friendlist sectionn-->
+	<div id="friendlist">
+		<h4>Friend list</h4>
+		<ul id='friends'>
+		</ul>
+	</div>
+	<!------------------------->
+	<div id="container">
+		<hr/>
+	</div>
+	<!--Online users section-->
+	<div id="onlineusers">
+		<button id='globalusersbtn'>≡</button>
+		<ul id='globalusers'>
+		</ul>
+	</div>
+	<!--scripts -->
+	<script type="text/javascript" src='/socket.io/socket.io.js'></script>
+	<script type="text/javascript" src="../js/profile.js"></script>
+</body>
+</html>
